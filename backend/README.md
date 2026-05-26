@@ -1,38 +1,28 @@
-# Backend Architecture
+# LaunchIQ.ai Backend Architecture
 
-LaunchIQ.ai uses a Backend-as-a-Service architecture powered by Supabase and Groq AI.
+> AI-powered backend intelligence powered by **Groq LLM + Supabase**
 
-## Components
+---
 
-### 1. Supabase
-- Authentication
-- PostgreSQL Database
-- User Session Management
-- Simulation Storage
+## Core Backend Components
 
-### 2. Groq AI
-- LLM-powered launch intelligence
-- Strategic product analysis
-- Market risk prediction
-- Executive summaries
-- Pricing strategy generation
-- Go-to-market recommendations
+| Component | Technology | Purpose |
+|------------|-------------|----------|
+| Authentication | Supabase Auth | User login & sessions |
+| Database | PostgreSQL | Simulation persistence |
+| AI Intelligence | Groq LLM | Strategic consulting outputs |
+| API Layer | TypeScript Services | AI orchestration |
+| Storage | Supabase | Simulation records |
 
-## Database Tables
+---
 
-### simulations
-Stores:
-- user_id
-- product_name
-- purchase_intent
-- market_sentiment
-- risk_score
-- launch_score
-- simulation_data
-- simulation_results
+## AI Intelligence Pipeline
 
-### auth.users
-Handles:
-- Signup
-- Login
-- Session Persistence
+```mermaid
+flowchart TD
+    A[User Simulation Input] --> B[Simulation Engine]
+    B --> C[Groq LLM API]
+    C --> D[AI Strategic Analysis]
+    D --> E[JSON Parsing Layer]
+    E --> F[Supabase Storage]
+    F --> G[Results Dashboard]
