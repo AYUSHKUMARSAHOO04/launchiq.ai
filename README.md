@@ -212,9 +212,6 @@ Build a recruiter-impressive AI portfolio project demonstrating:
 Chemical Engineering @ NIT Rourkela'26  
 Product Analyst & Strategy • Business Analyst • AI
 
-GitHub:
-https://github.com/AYUSHKUMARSAHOO04
-
 ---
 
 ## Current Status
