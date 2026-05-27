@@ -2,7 +2,15 @@
 
 ## AI-Powered Product Launch Intelligence Platform
 
-> Simulate market success before launching products using AI-powered strategic consulting intelligence.
+> Predict product launch success before going to market using AI-powered strategic consulting intelligence.
+
+**Live Platform:**  
+https://launch-iq-ai.vercel.app/
+
+**Product Demo:**  
+https://drive.google.com/file/d/1_RsbBekWaEKZ1L8vRRmYzNKCSje6Rkrt/view?usp=drivesdk
+
+**Deployment Status:** Production Ready
 
 ---
 
@@ -12,9 +20,10 @@
 |----------|----------|
 | **Product Name** | LaunchIQ.ai |
 | **Category** | AI Product Launch Intelligence Platform |
-| **Domain** | Product Strategy • Business Intelligence • AI |
+| **Domain** | Product Strategy • Business Intelligence • Artificial Intelligence |
 | **Project Type** | Full Stack AI SaaS Application |
-| **Status** | MVP Completed |
+| **Deployment** | Publicly Accessible (Vercel) |
+| **Status** | Live & Production Ready |
 
 ---
 
@@ -29,20 +38,21 @@ Businesses often launch products with limited understanding of:
 - Launch risk
 - Go-To-Market readiness
 
-This uncertainty leads to:
+This uncertainty frequently leads to:
 
-❌ Failed launches  
-❌ Poor pricing decisions  
+❌ Failed product launches  
 ❌ Weak product-market fit  
-❌ Ineffective positioning strategies
+❌ Poor pricing decisions  
+❌ Ineffective market positioning  
+❌ High launch risk  
 
 ---
 
 # Solution
 
-LaunchIQ.ai is an **AI-powered Product Launch Intelligence Platform** that simulates the market potential of products before launch.
+LaunchIQ.ai is an **AI-powered Product Launch Intelligence Platform** designed to simulate the success potential of products **before market launch**.
 
-The platform generates:
+Instead of relying on assumptions, LaunchIQ.ai generates:
 
 - Purchase likelihood prediction  
 - Launch risk analysis  
@@ -51,7 +61,7 @@ The platform generates:
 - Competitive positioning recommendations  
 - Pricing strategy insights  
 - Go-To-Market recommendations  
-- AI-powered consulting outputs
+- SWOT-based launch intelligence  
 
 using **Large Language Models (LLMs)** and structured business intelligence workflows.
 
@@ -59,9 +69,10 @@ using **Large Language Models (LLMs)** and structured business intelligence work
 
 # Target Users
 
-### Primary Users
+## Primary Users
 
 - Product Managers
+- Product Analysts
 - Business Analysts
 - Founders & Entrepreneurs
 - D2C Brands
@@ -69,18 +80,41 @@ using **Large Language Models (LLMs)** and structured business intelligence work
 - Innovation Teams
 - Consulting Professionals
 
-### Secondary Users
+## Secondary Users
 
 - Startups
 - Growth Teams
 - Market Research Teams
 - AI Product Teams
+- Product Consultants
 
 ---
 
-# MVP Objective
+# Product Objective
 
-Enable users to evaluate the success potential of products **before launch** through AI-powered launch intelligence simulations.
+Enable businesses and product teams to evaluate the success potential of products **before launch** through AI-powered launch intelligence simulations.
+
+---
+
+# Public Product Access
+
+LaunchIQ.ai is now publicly deployed and accessible.
+
+### Live Product
+
+https://launch-iq-ai.vercel.app/
+
+Users can:
+
+- Create product launch simulations  
+- Analyze launch risk  
+- Predict market sentiment  
+- Evaluate pricing strategies  
+- Benchmark competitors  
+- Generate SWOT insights  
+- Receive AI-powered launch recommendations  
+
+from any device.
 
 ---
 
@@ -90,13 +124,13 @@ Users provide:
 
 | Input | Description |
 |--------|-------------|
-| Product Name | Name of product |
+| Product Name | Product/brand name |
 | Category | Product category |
-| Industry | Business domain |
+| Industry | Industry domain |
 | Target Audience | Intended customer segment |
 | Price | Product pricing |
 | Market Region | Launch geography |
-| Product Features | Key differentiators |
+| Product Features | Product differentiators |
 | Competitors | Existing competitors |
 | Launch Goal | Strategic launch objective |
 
@@ -106,19 +140,22 @@ Users provide:
 
 LaunchIQ.ai generates:
 
-### Intelligence Metrics
+## Intelligence Metrics
+
 - Purchase Likelihood
 - Launch Risk Score
 - Market Sentiment
 - Confidence Score
 
-### Strategic Intelligence
+## Strategic Intelligence
+
 - Executive Summary
 - Strategic Insights
 - Market Risks
 - Pricing Strategy
 - Competitive Positioning
 - Go-To-Market Strategy
+- SWOT Intelligence
 - AI Recommended Actions
 
 ---
@@ -144,6 +181,8 @@ F --> G[Supabase Database]
 G --> H[Launch Intelligence Dashboard]
 ```
 
+---
+
 # Tech Stack
 
 ## Frontend
@@ -157,7 +196,7 @@ shadcn/ui
 React Router
 ```
 
-## Backend
+## Backend & Database
 
 ```txt
 Supabase
@@ -176,9 +215,10 @@ Structured JSON Parsing
 Strategic Consulting Intelligence
 ```
 
-## Hosting
+## Hosting & Deployment
 
 ```txt
+Vercel
 GitHub
 ```
 
@@ -186,7 +226,7 @@ GitHub
 
 # Supported Industry Simulations
 
-LaunchIQ.ai supports product intelligence simulations across:
+LaunchIQ.ai supports product launch intelligence across:
 
 ```txt
 Healthcare
@@ -199,11 +239,12 @@ SaaS
 D2C Products
 Smart Devices
 AI Products
+Healthcare Technology
 ```
 
 ---
 
-# Key Features
+# ✨ Key Features
 
 ### AI Consulting Intelligence
 Generate McKinsey/Bain-style launch recommendations.
@@ -215,47 +256,51 @@ Analyze competitive pressure and launch feasibility.
 Evaluate premium vs value-based pricing.
 
 ### Market Risk Detection
-Identify major launch threats.
+Identify major launch threats before launch.
+
+### SWOT Intelligence
+Automatically generate strengths, weaknesses, opportunities, and threats.
 
 ### Persistent Simulations
-Store simulations using Supabase.
+Store simulations securely using Supabase.
 
 ### Real-time Results Dashboard
-Modern premium UI for launch insights.
+Premium UI for AI-generated launch intelligence.
 
 ---
 
-# Project Demonstration
+# 🎥 Product Demonstration
 
-Complete working project demonstration:
+### Quick Product Demo
 
-**(Add Google Drive Demo Link Here)**
+https://drive.google.com/file/d/1_RsbBekWaEKZ1L8vRRmYzNKCSje6Rkrt/view?usp=drivesdk
 
-Includes:
+Demo includes:
 
-- Frontend walkthrough  
-- AI simulations  
-- Groq integration  
-- Supabase schema  
-- Database tables  
-- Real-time launch intelligence generation
-
----
-
-# Project Goal
-
-Build a **recruiter-impressive AI product portfolio project** demonstrating:
-
-- Product thinking  
-- Business intelligence capability  
-- AI integration expertise  
-- Full-stack engineering  
-- Strategic consulting mindset  
-- End-to-end execution
+- Landing page walkthrough  
+- Product simulation flow  
+- AI-generated strategic outputs  
+- Market intelligence insights  
+- Launch recommendation engine  
+- Supabase integration  
 
 ---
 
-# Current Status
+# 🎯 Project Goal
+
+Build a recruiter-impressive AI product portfolio project demonstrating:
+
+- Product Thinking  
+- Business Intelligence Capability  
+- AI Integration Expertise  
+- Full Stack Engineering  
+- Strategic Consulting Mindset  
+- End-to-End Product Execution  
+- Product Management Problem Solving
+
+---
+
+# 📈 Current Status
 
 ```txt
 Frontend Development       Complete
@@ -264,5 +309,6 @@ Supabase Integration       Complete
 Launch Intelligence UI     Complete
 Simulation Engine          Complete
 Testing                    Complete
-Deployment                 In Progress
+Production Deployment      Complete
+Public Access              Live
 ```
