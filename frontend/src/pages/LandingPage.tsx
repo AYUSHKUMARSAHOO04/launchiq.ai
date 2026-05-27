@@ -9,16 +9,12 @@ import {
   Sparkles,
   Target,
   TrendingUp,
-  Menu,
-  X,
 } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 
 export function LandingPage() {
-  const [mobileMenu, setMobileMenu] =
-    useState(false)
 
   const [showSigninPopup, setShowSigninPopup] =
     useState(false)
@@ -692,15 +688,18 @@ index
           <div className="mt-10">
 
             <Button
-              size="lg"
-              asChild
-              className="rounded-2xl px-10 py-6 text-lg"
-            >
-              <Link to="/app/new-simulation">
-                Start Free Simulation
-                <ArrowRight className="ml-2 size-5" />
-              </Link>
-            </Button>
+  size="lg"
+  onClick={() =>
+    setShowSigninPopup(true)
+  }
+  className="rounded-2xl px-10 py-6 text-lg"
+>
+
+  Start Free Simulation
+
+  <ArrowRight className="ml-2 size-5" />
+
+</Button>
 
           </div>
 
