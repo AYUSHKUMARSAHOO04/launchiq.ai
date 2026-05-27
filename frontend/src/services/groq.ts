@@ -1,15 +1,15 @@
 import Groq from 'groq-sdk'
 
-const groq =
-  new Groq({
+const apiKey = import.meta.env.VITE_GROQ_API_KEY
 
-    apiKey:
-      import.meta.env
-        .VITE_GROQ_API_KEY,
+if (!apiKey) {
+  console.warn('VITE_GROQ_API_KEY is not set')
+}
 
-    dangerouslyAllowBrowser:
-      true,
-  })
+const groq = new Groq({
+  apiKey: apiKey || '',
+  dangerouslyAllowBrowser: true,
+})
 
 export async function
 generateLaunchInsights(
