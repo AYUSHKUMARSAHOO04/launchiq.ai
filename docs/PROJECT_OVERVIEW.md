@@ -2,51 +2,69 @@
 
 ## AI-Powered Product Launch Intelligence Platform
 
-LaunchIQ.ai helps businesses evaluate product success potential **before launch** using AI-driven market intelligence.
+LaunchIQ.ai helps businesses evaluate **product success potential before launch** using AI-powered market intelligence and strategic consulting insights.
+
+**Live Platform:**  
+https://launch-iq-ai.vercel.app/
+
+**Product Demo:**  
+https://drive.google.com/file/d/1_RsbBekWaEKZ1L8vRRmYzNKCSje6Rkrt/view?usp=drivesdk
+
+**Status:** Live & Production Ready
 
 ---
 
 ## Problem Statement
 
-Most businesses launch products without understanding:
+Most businesses launch products without fully understanding:
 
 - Market demand
-- Customer sentiment
+- Customer purchase intent
+- Market sentiment
 - Launch risk
 - Competitive pressure
 - Pricing effectiveness
+- Go-To-Market readiness
 
-This leads to failed launches.
+This uncertainty often leads to:
 
-LaunchIQ.ai solves this using **AI-powered consulting intelligence**.
+❌ Failed launches  
+❌ Weak product-market fit  
+❌ Poor pricing decisions  
+❌ Ineffective market positioning  
+
+LaunchIQ.ai solves this through **AI-powered product launch intelligence**.
 
 ---
 
 ## Core Features
 
 ### Purchase Likelihood
-Predicts expected customer adoption probability.
+Predict expected customer adoption probability.
 
 ### Launch Risk Analysis
-Analyzes business and market launch risk.
+Evaluate market and business launch risk.
 
 ### Market Sentiment
-Predicts likely market reaction.
+Predict likely customer reaction.
 
 ### Executive Summary
-AI-generated strategic business summary.
+Generate AI-powered strategic business summaries.
 
 ### Strategic Insights
-Actionable consulting insights.
+Receive consulting-style actionable insights.
 
 ### Pricing Strategy
-Premium pricing recommendations.
+Get AI-driven pricing recommendations.
 
 ### Competitive Positioning
-How product should position in market.
+Understand optimal product positioning.
 
 ### Go-To-Market Strategy
-Recommended launch roadmap.
+Generate launch recommendations.
+
+### SWOT Intelligence
+Analyze strengths, weaknesses, opportunities, and threats.
 
 ---
 
@@ -56,10 +74,13 @@ Recommended launch roadmap.
 |-------|-------------|
 | Frontend | React + TypeScript |
 | Styling | Tailwind CSS |
+| UI Components | shadcn/ui |
+| Routing | React Router |
 | Backend | Supabase |
 | Database | PostgreSQL |
-| AI | Groq LLM |
+| AI Intelligence | Groq LLM (Llama 3.3 70B) |
 | Hosting | Vercel |
+| Version Control | GitHub |
 
 ---
 
@@ -67,10 +88,39 @@ Recommended launch roadmap.
 
 ```txt
 Healthcare
-Beauty
+Beauty & Personal Care
 Luxury Products
 FinTech
-Automotive
+Automotive / EV
 SaaS
 Consumer Electronics
+D2C Products
+AI Products
+Smart Devices
+Healthcare Technology
+```
+
+---
+
+## Public Product Access
+
+LaunchIQ.ai is now publicly deployed.
+
+**Live Demo:**  
+https://launch-iq-ai.vercel.app/
+
+Anyone can access the platform and run their own simulations from any device.
+
+---
+
+## Current Status
+
+```txt
+Frontend Development       Complete
+Groq AI Integration        Complete
+Supabase Integration       Complete
+Simulation Engine          Complete
+Testing                    Complete
+Production Deployment      Complete
+Public Access              Live
 ```
